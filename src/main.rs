@@ -2,6 +2,7 @@ use std::env;
 
 use log::LevelFilter;
 
+/// Reference: https://stackoverflow.com/q/26142232
 fn setup_logger() {
     let mut builder = &mut env_logger::builder();
 
